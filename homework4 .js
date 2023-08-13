@@ -82,30 +82,26 @@
 // }
 // console.log(checkIfWordExists(mixedMatrix, trueCar));
 
-
 //return array matrix
 let evenMatrix = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9],
-
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
 ];
 
-function turnEvenMatrix (evenMatrix) {
-    const turned = new Array (evenMatrix.length);
-    
-    for (let i = 0; i < evenMatrix.length; i++) {
-        turned[i] = [];
-        
-        for (let j = 0; j < evenMatrix[i].length; j++){
-        turned[i].push(evenMatrix[j][i]);
-        
-     }
-     
-     
-}
-return turned
+function turnEvenMatrix(evenMatrix) {
+  const turned = new Array(evenMatrix.length);
+
+  for (let i = 0; i < evenMatrix.length; i++) {
+    turned[i] = [];
+
+    for (let j = 0; j < evenMatrix[i].length; j++) {
+      turned[i].push(evenMatrix[j][i]);
+    }
+  }
+  return turned;
 }
 
-console.log(turnEvenMatrix(evenMatrix))
+console.log(turnEvenMatrix(evenMatrix));
 // . Տրված է քառակսաձեւ մատրիցա(nxn), վերադարձնել նորը, որտեղ կլինեն միայն այն տողերն  սյները որոնց գմարը չի գերազանցի նշված k թիվը
+// dfijdofijdofidjfodijfdosifjdsofijdoifjdsofildjflidkjfds
